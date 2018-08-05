@@ -1,0 +1,857 @@
+/* ============== KKAdmin ============== */
+
+
+
+#kkadmin-slug{
+	position: absolute;
+	top: 20px;
+	left: 320px;
+	color: #333;
+	font-size: 60px;
+	font-family: Arial, sans-serif;
+	white-space: nowrap;
+	line-height: 1em;
+}
+
+.kkpb-ok {
+	border: 1px #1e7700 solid;
+	background: #eaffe1;
+	padding: 15px;
+	margin-bottom: 15px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.kkpb-error,
+.kkpb-alert-error {
+	border: 1px #9f1000 solid;
+	background: #ffe4e1;
+	padding: 15px;
+	margin-bottom: 15px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.kkpb-head-h3 {
+	margin: 0;
+	padding: 10px 0px;
+	cursor: default !important;
+}
+
+.kkpb-head-h3 span {
+	margin: 0px 10px;
+	font-size: 12px;
+	cursor: default;
+}
+
+.kkadmin-opt-head, .kkadmin-opt-head-inline, .kk-admin-label label{
+	font-size: 17px;
+	font: italic 17px/22px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	color: #464646;
+}
+
+#kkadmin-tresc h2{
+	font: italic 17px/22px Georgia,"Times New Roman","Bitstream Charter",Times,serif !important;
+	color: #464646;
+}
+
+.kkpb-info-widget{
+	float: left;
+	margin-right: 15px;
+    width: 255px;
+}
+
+#kkadmin-head-plugin{
+	position: absolute;
+	display: block;
+	color: #EED69C;
+	top: 63px;
+	left: 90px;
+}
+
+#kkadmin-head-plugin a{
+	color: #FFF0CE;
+	text-decoration: none;
+}
+
+#kkadmin-head-plugin a:hover{
+	color: #fff;
+}
+
+.kkadmin-selectbox, .kk-admin-input-text{vertical-align: middle;}
+
+.kkadmin-selectbox select{
+	font-size: 14px !important;
+	padding: 5px !important;
+	height: auto !important;
+	max-width: 300px;
+}
+
+.kkadmin-box .kk-admin-input-text,
+.kkadmin-box input[type="text"]{
+	font-size: 14px;
+	padding: 7px 10px;
+	line-height: 1;
+	margin: 0;
+	width: 95%;
+	height: auto;
+}
+
+.kk-admin-input label,
+.kkadmin-radio-ui label{
+	margin: 0;
+}
+
+.kkadmin-info span{
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.kkrow{
+	clear: both;
+	margin-bottom: 25px;
+}
+
+.kkadmin-info{
+	cursor: help;
+	color: #333;
+}
+
+#kkadmin-head{
+	position: relative;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #151515; /* old browsers */
+	padding: 15px 15px 20px 15px;
+	margin-top: 30px;
+	background: -moz-linear-gradient(top, #151515 0%, #393939 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151515), color-stop(100%,#393939)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151515', endColorstr='#393939',GradientType=0 ); /* ie */
+}
+
+#icon-options-general{
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+
+#kkadmin-menu{
+	width: 20%;
+	float: right;
+	background: #393939;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-bottom: 10px;
+}
+
+#kkadmin-tresc{
+	width: 74%;
+	float: left;
+	padding: 20px;
+	margin: -5px 3px 20px 10px;
+	background: #f1f1f1;
+	border: 1px #ddd solid;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.kk-admin-info, .kk-admin-label, .kk-admin-settings-val{
+	padding: 15px 0;
+	background: url("../images/table-break.png") repeat-x bottom;
+}
+
+.kk-admin-label{
+	width: 40%;
+	vertical-align: top;
+}
+
+.kkadmin-option-content{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+
+#kkadmin-tresc-wew{
+	margin: 15px 10px;
+	position: relative;
+}
+
+#kkadmin-menu-ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#kkadmin-menu-ul li{
+	margin: 0;
+}
+
+#kkadmin-menu-ul li a{
+	display: block;
+	text-decoration: none;
+	color: #d3bc87;
+	letter-spacing: 1px;
+	font-size: 14px;
+	padding: 20px 15px;
+	background: -moz-linear-gradient(top, #151515 0%, #393939 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#151515), color-stop(100%,#393939)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151515', endColorstr='#393939',GradientType=0 ); /* ie */
+}
+
+#kkadmin-menu-ul li a:hover, #kkadmin-menu-ul li a.active{
+	color: #2e2e2e;
+	border-left: 1px #aaa solid;
+	border-right: 1px #aaa solid;
+	background: #EEEEEE; /* old browsers */
+	background: -moz-linear-gradient(top, #EEEEEE 0%, #BBBBBB 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EEEEEE), color-stop(100%,#BBBBBB)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#BBBBBB',GradientType=0 ); /* ie */
+}
+
+.kkadmin-menu-ico{
+	display: block;
+	float: left;
+	vertical-align: middle;
+}
+
+#kkadmin-menu-ico-general{
+	background: url('../images/global.png') no-repeat;
+	width: 17px;
+	height: 15px;
+	margin: 2px 15px 0 0;
+}
+
+#kkadmin-menu-ul li a:hover #kkadmin-menu-ico-general, #kkadmin-menu-ul li a #kkadmin-menu-ico-general.active{
+	background: url('../images/global_up.png') no-repeat;
+}
+
+#kkadmin-menu-ico-blog{
+	background: url('../images/blog.png') no-repeat;
+	width: 12px;
+	height: 16px;
+	margin: 2px 15px 0 4px;
+}
+
+#kkadmin-menu-ul li a:hover #kkadmin-menu-ico-blog, #kkadmin-menu-ul li a #kkadmin-menu-ico-blog.active{
+	background: url('../images/blog_up.png') no-repeat;
+}
+
+#kkadmin-menu-ico-kkgallery{
+	background: url('../images/gallery.png') no-repeat;
+	width: 21px;
+	height: 19px;
+	margin: 2px 15px 0 4px;
+}
+
+#kkadmin-menu-ul li a:hover #kkadmin-menu-ico-kkgallery, #kkadmin-menu-ul li a #kkadmin-menu-ico-kkgallery.active{
+	background: url('../images/gallery_up.png') no-repeat;
+}
+
+#kkadmin-menu-ico-contact{
+	background: url('../images/contact.png') no-repeat;
+	width: 15px;
+	height: 11px;
+	margin: 2px 15px 0 4px;
+}
+
+#kkadmin-menu-ul li a:hover #kkadmin-menu-ico-contact, #kkadmin-menu-ul li a #kkadmin-menu-ico-contact.active{
+	background: url('../images/contact_up.png') no-repeat;
+}
+
+#kkadmin-menu-ico-documentation{
+	background: url('../images/documentation.png') no-repeat;
+	width: 13px;
+	height: 17px;
+	margin: 2px 15px 0 4px;
+}
+
+#kkadmin-menu-ul li a:hover #kkadmin-menu-ico-documentation, #kkadmin-menu-ul li a #kkadmin-menu-ico-documentation.active{
+	background: url('../images/documentation_up.png') no-repeat;
+}
+
+#kkadmin-menu-ico-info{
+	background: url('../images/info.png') no-repeat;
+	width: 16px;
+	height: 17px;
+	margin: 2px 15px 0 4px;
+}
+
+#kkadmin-menu-ul li a:hover #kkadmin-menu-ico-info, #kkadmin-menu-ul li a #kkadmin-menu-ico-info.active{
+	background: url('../images/info_up.png') no-repeat;
+}
+
+.kk-admin-info{
+	vertical-align: top;
+	width: 25px;
+}
+
+.kk-sidebar-box{
+	float: left;
+	width: 120px;
+	margin: 10px;
+}
+
+.kk-sidebar-content{
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #ececec;
+	background: -moz-linear-gradient(top, #ececec 0%, #e8e8e8 50%, #e2e2e2 51%, #fefefe 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ececec), color-stop(50%,#e8e8e8), color-stop(51%,#e2e2e2), color-stop(100%,#fefefe));
+	background: -webkit-linear-gradient(top, #ececec 0%,#e8e8e8 50%,#e2e2e2 51%,#fefefe 100%);
+	background: -o-linear-gradient(top, #ececec 0%,#e8e8e8 50%,#e2e2e2 51%,#fefefe 100%);
+	background: -ms-linear-gradient(top, #ececec 0%,#e8e8e8 50%,#e2e2e2 51%,#fefefe 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#fefefe',GradientType=0 );
+	background: linear-gradient(top, #ececec 0%,#e8e8e8 50%,#e2e2e2 51%,#fefefe 100%);
+	border: 1px #fff solid;
+	box-shadow: #888 0px 0px 5px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.kk-sidebar-content-wew{
+	padding: 10px;
+	text-align: center;
+}
+
+.kk-small-text, .kk-small-text-sidebar{
+	margin: 0;
+	font-size: 11px;
+}
+
+.kk-small-text{
+	margin-top: 5px;
+}
+
+#kkpb-add-bar-form .kkpb-long-input{
+	width: 250px;
+}
+
+#kkpb-add-bar-form table tr td{
+	padding: 5px 0;
+}
+
+.kkadmin-radio-prev-box{
+	float: left;
+    height: 82px;
+    margin: 0 0 10px 10px;
+    width: 77px;
+}
+
+.kkadmin-radio-prev-box:first-child{
+	margin-left: 0;
+}
+
+.kkadmin-radio-prev-class label{
+	display: block;
+	position: relative;
+	top: -12px;
+    height: 82px;
+    width: 77px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    color: #666;
+}
+
+.kkadmin-radio-prev-box label {
+    background: -moz-linear-gradient(center top , #EEEEEE 0%, #FCFCFC 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 0;
+}
+
+.kkadmin-radio-prev-class input{
+	cursor: pointer;
+    left: 20px;
+    opacity: 100;
+    outline: medium none;
+    position: relative;
+    top: 40px;
+}
+
+.kkpb-radio-prev-class{
+	display: block;
+	width: 85%;
+	height: 55px;
+	margin: 5px 0 0 4px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 2px #fff solid;
+	float: left;
+}
+
+.kkadmin-radio-prev-box.kkadmin-active label{
+	box-shadow: 0 0 5px #000;
+	background: rgb(86,86,86);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2NTY1NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyODM0M2IiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, rgba(86,86,86,1) 0%, rgba(40,52,59,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(86,86,86,1)), color-stop(100%,rgba(40,52,59,1)));
+	background: -webkit-linear-gradient(top, rgba(86,86,86,1) 0%,rgba(40,52,59,1) 100%);
+	background: -o-linear-gradient(top, rgba(86,86,86,1) 0%,rgba(40,52,59,1) 100%);
+	background: -ms-linear-gradient(top, rgba(86,86,86,1) 0%,rgba(40,52,59,1) 100%);
+	background: linear-gradient(top, rgba(86,86,86,1) 0%,rgba(40,52,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#28343b',GradientType=0 );
+	border-color: #000; 
+	color: #fff;
+}
+
+.kkadmin-radio-prev-box.kkadmin-active .kkpb-radio-prev-class{
+	border-color: #000; 
+}
+
+.kkpb-texture-glass.kkpb-radio-prev-class, .kkpb-texture-paski.kkpb-radio-prev-class{
+	background-color: #000;
+}
+
+label.error{
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: red;
+	font-family: Verdana, sans-serif;
+}
+
+.kkpb-settings-title-break h2{
+	color: #220C01;
+	font-size: 20px !important;
+}
+
+.kkadmin-loading{
+	background-image: url("../images/loader.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.kkwidget-option-title{
+	font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+.kkwidget-option-label{
+	font-size: 10px;
+    font-weight: bold;
+    margin: 0 10px 0 2px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+
+/* ============== KKAdmin2 ============== */
+
+.kkadmin-box{
+    position: relative;
+	width: 1050px;
+	margin: 15px auto;
+	box-shadow: 0 0 5px #ccc;
+	border: 1px solid #e5e5e5;
+}
+
+.kkadmin-top{
+	position: relative;
+	background: url('../images/admin/top-img-bg.jpg') no-repeat top right;
+	height: 112px;
+}
+
+.kkadmin-head-plugin{
+	position: absolute;
+	left: 15px;
+	bottom: 5px;
+}
+
+.kkadmin-head-plugin a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.kkadmin-head-plugin a:hover{
+	color: #888888;
+}
+
+.kkadmin-content{
+	background: url("../images/admin/content-bg.jpg") repeat-y scroll right top transparent;
+	border-top: 1px solid #e5e5e5;
+}
+
+.kkadmin-text{
+	float: left;
+	width: 794px;
+}
+
+.kkadmin-text-wew{
+	margin: 15px;
+}
+
+.kkadmin-text h2{
+	margin: 0;
+	padding: 10px 15px;
+	background: #3E3E3E;
+	color: #FFFFFF;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 1;
+	/*margin-bottom: 10px;*/
+}
+
+.kkadmin-sidebar{
+	float: left;
+	width: 256px;
+	padding-top: 2px;
+}
+
+.kkadmin-sidebar-box{
+	margin: 10px 15px; 
+	color: #333;
+}
+
+.kkadmin-sidebar-box a{
+	color: #c31216;
+	text-decoration: none;
+}
+
+.kkadmin-sidebar-box a:hover{
+	color: #3E3E3E;
+}
+
+.kkadmin-menu-ul,
+.kkadmin-menu-ul li{
+	margin: 0;
+	position: relative;
+}
+
+.kkadmin-menu-ul li a{
+	display: block;
+	padding: 10px 20px;
+	background: #F1F1F1;
+	margin: 0 0 1px 0;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.kkadmin-menu-ul li a:hover,
+.kkadmin-menu-ul li a.active{
+	background: #3e3e3e;
+	color: #FFFFFF;
+}
+
+.kkadmin-menu-ul li a.active .kkadmin-arrow{
+	border-color: transparent #3E3E3E transparent transparent;
+    border-style: solid;
+    border-width: 12px;
+    display: block;
+    height: 0;
+    left: -24px;
+    position: absolute;
+    top: 7px;
+    width: 0;
+}
+
+.kkclear{
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 1px;
+	position: relative;
+	top: -1px;
+}
+
+.kkpb-settings-title-break .kk-admin-settings-val{
+	padding: 0;
+}
+
+/* ============== /KKAdmin2 ============== */
+
+.kkadmin-radio-prev-box .top-left{
+	background: url('../images/top-left.jpg') no-repeat;
+}
+
+.kkadmin-radio-prev-box .top-right{
+	background: url('../images/top-right.jpg') no-repeat;
+}
+
+.kkadmin-radio-prev-box .bottom-left{
+	background: url('../images/bottom-left.jpg') no-repeat;
+}
+
+.kkadmin-radio-prev-box .bottom-right{
+	background: url('../images/bottom-right.jpg') no-repeat;
+}
+
+.kkadmin-radio-prev-box .none{
+	background: url('../images/own-position.jpg') no-repeat;
+}
+
+.kklike-list-box{
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	margin-bottom: 20px;
+}
+
+.kklike-list-box-element{
+	padding: 9px 15px 8px;
+	border-top: 1px solid #EEEEEE;
+}
+
+.kklike-list-box-element:first-child{
+	border-top: none;
+}
+
+.kklike-list-box-element strong{
+	font-style: italic;
+}
+
+.kklike-list-ico{
+	background: url('../images/admin/serce-ciemne.png') no-repeat;
+	width: 25px;
+	height: 20px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 3px;
+}
+
+.kklike-list-text{
+	float: left;
+	width: 690px;
+}
+
+.kklike-ip{
+	font-size: 10px;
+    line-height: 100%;
+}
+
+.kklike-stat{
+	position: relative;
+	line-height: 100%;
+	padding: 13px 15px 12px;
+	height: 13px;
+	overflow: hidden;
+}
+
+.kklike-stat .kklike-list-text{
+	position: relative;
+	z-index: 5;
+}
+
+.kklike-likes{
+	color: #DDDDDD;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    z-index: 10;
+}
+
+.kklike-stat-bg{
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 50%;
+	height: 34px;
+	background: #eee;
+}
+
+.kklike-sidebar-link{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 1px 1px #fff;
+	color: #b5b5b5;
+	text-decoration: none;
+	background: url('../images/admin/link.png') no-repeat 185px 0 transparent;
+	padding: 6px 70px 6px 6px;
+	margin: 10px 0;
+}
+
+.kklike-sidebar-link:hover{
+	background: url('../images/admin/link.png') no-repeat 185px -54px transparent;
+	color: #333;
+}
+
+.kklike-msg{
+	background: url("../images/admin/kklike-msg-ico.png") no-repeat scroll 15px center #E5E5E5;
+    font-size: 11px;
+    margin: 10px 0 0;
+    padding: 10px 10px 10px 60px;
+    color: #666666;
+}
+
+#kklike-button-prev-box{
+    display: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+    position: absolute;
+    right: 1px;
+    top: 416px;
+    width: 221px;
+    opacity: 0;
+}
+
+#kklike-button-prev-box h4{
+    margin-top: 0;
+}
+
+.one-half{
+	float: left;
+	width: 48%;
+	margin-right: 4%;
+}
+
+.one-half-last{
+	float: left;
+	width: 47.8%;
+}
+
+.kkadmin-small-chart{
+	width: 100%; 
+	height: 250px;
+	margin: 15px 0;
+}
+
+.kkadmin-chart-desc{
+	color: #888;
+	font-style: italic;
+	margin-top: 15px;
+	padding-left: 15px;
+}
+
+
+#kkpb-db-update {
+    padding: 30px 0;
+    text-align: center;
+    width: 794px;
+}
+
+.buy-coffe{
+	font-size: 14px;
+	font-style: italic;
+	color: #583515 !important;
+	display: block;
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 10px;
+}
+
+.buy-coffe:hover{
+	color: #333 !important;
+}
+
+#donate-button{
+	display: none;
+}
+
+.kkmenu-bar{
+	background: #3E3E3E;
+	overflow: hidden;
+}
+
+.kkmenu-bar .submenu{
+	float: right;
+}
+
+.kkmenu-bar li{
+	float: left;
+	margin: 0;
+}
+
+.kkmenu-bar a{
+	display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.kkmenu-bar a.active{
+	background: #000;
+}
+
+.kkdisplay-none{
+	display: none;
+}
+
+.loading{
+	background: url('../images/loader.gif') no-repeat center center transparent;
+	height: 200px;
+}
+
+.kktable-gray{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 25px 0;
+}
+
+.kktable-gray th,
+.kktable-gray td{
+	text-align: left;
+	font-size: 1em;
+	padding: 10px;
+}
+
+.kktable-gray th{
+	background: #3E3E3E;
+	color: #F1F1F1;
+}
+
+.kktable-gray td{
+	border-bottom: 1px solid #ccc;
+}
+
+.kktable-gray tr:nth-child(odd) td{
+	background: #F1F1F1;
+}
+
+.version-old{
+	background: #ff3019;
+	background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+	background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+	background: -o-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+	background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+	background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+
+    color: #FFFFFF;
+    font-size: 1.1em;
+    line-height: 1.4;
+    padding: 5px 10px;
+}
+
+.version-old a{
+	color: #fff;
+}
+
+.version-ok{
+	background: #ddd;
+
+	color: #555;
+    font-size: 1.1em;
+    line-height: 1.4;
+    padding: 5px 10px;
+}

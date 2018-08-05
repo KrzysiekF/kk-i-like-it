@@ -1,0 +1,31 @@
+.kk-i-like-it__user-box {
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 10px;
+}
+
+.kk-i-like-it__user-box:first-of-type {
+    margin-left: 0; 
+}
+
+.kk-i-like-it__user-nick {
+    display: block;
+    font-size: 13px;
+}
+
+/* .kk-i-like-it__widget {} */
+
+.kk-i-like-it__widget-title {
+    display: block;
+    font-size: 1rem;
+}
+
+.kk-i-like-it__widget-rating,
+.kk-i-like-it__widget-date {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.kk-i-like-it__widget-date {
+    float: right;
+}

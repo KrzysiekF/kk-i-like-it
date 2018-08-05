@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-03 12:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: options-config.php:69
+msgid "Settings"
+msgstr ""
+
+#: options-config.php:77 options-config.php:78
+msgid "KK I Like It Settings"
+msgstr ""
+
+#: options-config.php:247
+msgid "Theme Information 1"
+msgstr ""
+
+#: options-config.php:248 options-config.php:253
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: options-config.php:252
+msgid "Theme Information 2"
+msgstr ""
+
+#: options-config.php:259
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: options-config.php:282
+msgid "Button settings"
+msgstr ""
+
+#: options-config.php:284
+msgid "These are really basic fields!"
+msgstr ""
+
+#: options-config.php:290 options-config.php:331
+msgid "Button design"
+msgstr ""
+
+#: options-config.php:299
+msgid "Like text"
+msgstr ""
+
+#: options-config.php:305
+msgid "Unlike text"
+msgstr ""
+
+#: options-config.php:311
+msgid "Show numer of likes"
+msgstr ""
+
+#: options-config.php:313
+msgid "Always"
+msgstr ""
+
+#: options-config.php:314
+msgid "Never"
+msgstr ""
+
+#: options-config.php:315
+msgid "Hovering cursore over the button"
+msgstr ""
+
+#: options-config.php:322
+msgid "Own button style"
+msgstr ""
+
+#: options-config.php:324 options-config.php:497 options-config.php:507
+#: options-config.php:517 options-config.php:538 options-config.php:548
+#: options-config.php:568 options-config.php:584
+msgid "No"
+msgstr ""
+
+#: options-config.php:325 options-config.php:498 options-config.php:508
+#: options-config.php:518 options-config.php:539 options-config.php:549
+#: options-config.php:569 options-config.php:585
+msgid "Yes"
+msgstr ""
+
+#: options-config.php:360
+msgid "Background Color"
+msgstr ""
+
+#: options-config.php:370
+msgid "Text Color"
+msgstr ""
+
+#: options-config.php:380
+msgid "Border Color"
+msgstr ""
+
+#: options-config.php:390
+msgid "Border size"
+msgstr ""
+
+#: options-config.php:403
+msgid "Font size"
+msgstr ""
+
+#: options-config.php:416
+msgid "Round corners"
+msgstr ""
+
+#: options-config.php:429
+msgid "Button icon"
+msgstr ""
+
+#: options-config.php:442
+msgid "Display settings"
+msgstr ""
+
+#: options-config.php:451
+msgid "Where display button"
+msgstr ""
+
+#: options-config.php:453
+msgid "Post"
+msgstr ""
+
+#: options-config.php:454
+msgid "Page"
+msgstr ""
+
+#: options-config.php:455
+msgid "Post & Page"
+msgstr ""
+
+#: options-config.php:462
+msgid "Button position"
+msgstr ""
+
+#: options-config.php:495
+msgid "Show button on post list"
+msgstr ""
+
+#: options-config.php:505
+msgid "Only users can vote"
+msgstr ""
+
+#: options-config.php:515
+msgid "Should a button be shown to guests"
+msgstr ""
+
+#: options-config.php:527
+msgid "WP Dashboard"
+msgstr ""
+
+#: options-config.php:536
+msgid "Show Recent Liked widget"
+msgstr ""
+
+#: options-config.php:546
+msgid "Show Top Liked widget"
+msgstr ""
+
+#: options-config.php:557
+msgid "Voters preview"
+msgstr ""
+
+#: options-config.php:565
+msgid "Show voters section"
+msgstr ""
+
+#: options-config.php:576
+msgid "Voters Section Header Text"
+msgstr ""
+
+#: options-config.php:582
+msgid "Show voters names"
+msgstr ""
+
+#: options-config.php:592
+msgid "Avatar size (in pixels)"
+msgstr ""
+
+#: options-config.php:605
+msgid "Documentation"
+msgstr ""
+
+#: options-config.php:736
+msgid "Section via hook"
+msgstr ""
+
+#: options-config.php:737
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: admin/class-kk-i-like-it-admin.php:149
+msgid "KKILikeIt - recently liked"
+msgstr ""
+
+#: admin/class-kk-i-like-it-admin.php:152
+msgid "KKILikeIt - most liked - TOP 5"
+msgstr ""
+
+#: admin/partials/kk-i-like-it-admin-display.php:8
+msgid "Welcome to KK I Like It statistics panel!"
+msgstr ""
+
+#: admin/partials/kk-i-like-it-admin-display.php:12
+msgid "Total Likes"
+msgstr ""
+
+#: admin/partials/kk-i-like-it-admin-display.php:19
+msgid "Recently Liked"
+msgstr ""
+
+#: admin/partials/kk-i-like-it-admin-display.php:38
+#: admin/partials/kk-i-like-it-admin-display.php:72
+#: admin/partials/widget-most-liked.php:30
+#: admin/partials/widget-recently-liked.php:25
+msgid "I'm sorry, at this moment there are no data to display"
+msgstr ""
+
+#: admin/partials/kk-i-like-it-admin-display.php:62
+#: admin/partials/widget-most-liked.php:20
+msgid "likes"
+msgstr ""
+
+#: admin/partials/kk-i-like-it-admin-display.php:81
+msgid "Number of likes in last 30 days (by day)"
+msgstr ""
+
+#: includes/class-kk-i-like-it-db.php:183
+#: public/class-kk-i-like-it-public.php:295
+msgid "Guest"
+msgstr ""
+
+#: public/partials/widgets.php:42 public/partials/widgets.php:161
+#: public/partials/widgets.php:262
+msgid "Title:"
+msgstr ""
+
+#: public/partials/widgets.php:47 public/partials/widgets.php:166
+#: public/partials/widgets.php:268
+msgid "How many items should be displayed"
+msgstr ""
+
+#: public/partials/widgets.php:48 public/partials/widgets.php:167
+#: public/partials/widgets.php:269
+msgid " items."
+msgstr ""
+
+#: public/partials/widgets.php:51 public/partials/widgets.php:170
+msgid "What post type should be displayed"
+msgstr ""
+
+#: public/partials/widgets.php:110 public/partials/widgets.php:229
+#: public/partials/widgets.php:324
+msgid "Liked:"
+msgstr ""
+
+#: public/partials/widgets.php:111 public/partials/widgets.php:230
+#: public/partials/widgets.php:325
+msgid "Date:"
+msgstr ""
+
+#: public/partials/widgets.php:334
+msgid "Do not have favorite items."
+msgstr ""

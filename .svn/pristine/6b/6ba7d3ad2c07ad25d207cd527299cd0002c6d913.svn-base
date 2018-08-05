@@ -1,0 +1,622 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KKProgressbar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-03 21:06+0100\n"
+"PO-Revision-Date: 2012-09-03 21:52+0100\n"
+"Last-Translator: Krzysztof Furtak <krzysztof.furtak@gmail.om>\n"
+"Language-Team: KKDesign <krzysztof.furtak@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-interface.php:23
+msgid ""
+"<strong>Plugin is not configured. It may not work correctly.</strong> Go to "
+"settings, make your selection and save settings."
+msgstr ""
+"<strong>Plugin nie został skonfigurowany. Może nie działać prawidłowo.</"
+"strong> Przejdź do zakładki USTAWIENIA, wybierz odpowiednie opcje i kliknij "
+"przycisk ZAPISZ."
+
+#: ../admin-interface.php:26
+msgid "The last ten activities"
+msgstr "Ostatnich 10 aktywności"
+
+#: ../admin-interface.php:50
+msgid "I'm sorry, at this moment there is no data to display"
+msgstr "Przepraszamy, w tej chwili nie ma informacji do wyświetlenia"
+
+#: ../admin-interface.php:60
+msgid "Likes per day"
+msgstr "Polubień w ciągu dnia"
+
+#: ../admin-interface.php:62
+msgid "The number of likes within last few days."
+msgstr "Ilość polubień treści w ciągu oststnich kilku dni."
+
+#: ../admin-interface.php:67
+msgid "Top liked"
+msgstr "Najbardziej lubiane"
+
+#: ../admin-interface.php:69
+msgid "The most often liked aticles within last few days."
+msgstr "Najbardziej lubiane treści w ciągu kilku ostatnich dni."
+
+#: ../admin-interface.php:99
+msgid "Top Left"
+msgstr "Góra Lewa"
+
+#: ../admin-interface.php:100
+msgid "Top Right"
+msgstr "Góra Prawa"
+
+#: ../admin-interface.php:101
+msgid "Bottom Left"
+msgstr "Dół Lewa"
+
+#: ../admin-interface.php:102
+msgid "Bottom Right"
+msgstr "Dół Prawa"
+
+#: ../admin-interface.php:103
+msgid "Own position"
+msgstr "Własna pozycja"
+
+#: ../admin-interface.php:107
+msgid "Light"
+msgstr "Jasny"
+
+#: ../admin-interface.php:108
+msgid "Dark"
+msgstr "Ciemy"
+
+#: ../admin-interface.php:109 ../admin-interface.php:129
+msgid "Big Dark"
+msgstr "Duży Ciemy"
+
+#: ../admin-interface.php:110 ../admin-interface.php:128
+msgid "Big Light"
+msgstr "Duży Jasny"
+
+#: ../admin-interface.php:114
+msgid "Post"
+msgstr "Wpis"
+
+#: ../admin-interface.php:115
+msgid "Page"
+msgstr "Strona"
+
+#: ../admin-interface.php:116
+msgid "Post&Page"
+msgstr "Wpisy i Strony"
+
+#: ../admin-interface.php:120
+msgid "Always"
+msgstr "Zawsze"
+
+#: ../admin-interface.php:121
+msgid "Never show"
+msgstr "Nigdy nie pokazuj"
+
+#: ../admin-interface.php:122
+msgid "Hovering cursore over the button"
+msgstr "Po najechaniu kursorem na przycisk"
+
+#: ../admin-interface.php:126
+msgid "Small Dark"
+msgstr "Mały Ciemny"
+
+#: ../admin-interface.php:127
+msgid "Small Light"
+msgstr "Mały Jasny"
+
+#: ../admin-interface.php:134
+msgid "General Settings"
+msgstr "Ustawienia ogólne"
+
+#: ../admin-interface.php:139
+msgid "Button settings:"
+msgstr "Ustawienia przycisku:"
+
+#: ../admin-interface.php:144
+msgid "Like text:"
+msgstr "Tekst polubienia:"
+
+#: ../admin-interface.php:150
+msgid "Unlike text:"
+msgstr "Tekst cofnięcia polubienia:"
+
+#: ../admin-interface.php:156
+msgid "Only users can vote?"
+msgstr "Tylko użytkownicy mogą oddawać głosy?"
+
+#: ../admin-interface.php:162
+msgid "Should a button be shown to guests?"
+msgstr "Czy przycisk ma być pokazywany gościom?"
+
+#: ../admin-interface.php:168
+msgid "Button position:"
+msgstr "Pozycja przycisku:"
+
+#: ../admin-interface.php:175
+msgid "Show button on post list?"
+msgstr "Pokazać przycisk na liście wpisów?"
+
+#: ../admin-interface.php:181
+msgid "Where display button?"
+msgstr "Gdzie wyświetlić przycisk?"
+
+#: ../admin-interface.php:188
+msgid "Show numer of likes"
+msgstr "Pokazać ilość polubień treści"
+
+#: ../admin-interface.php:196
+msgid "Own button style?"
+msgstr "Własny styl przycisku?"
+
+#: ../admin-interface.php:203 ../admin-interface.php:247
+msgid "Button type"
+msgstr "Typ przycisku"
+
+#: ../admin-interface.php:211
+msgid "Button Color"
+msgstr "Kolor przycisku"
+
+#: ../admin-interface.php:217
+msgid "Button Text Color"
+msgstr "Kolor tekstu na przycisku"
+
+#: ../admin-interface.php:223
+msgid "Button Border Size"
+msgstr "Szerokość obramowania"
+
+#: ../admin-interface.php:229
+msgid "Button Border Color"
+msgstr "Kolor obramowania"
+
+#: ../admin-interface.php:235
+msgid "Button Font Size"
+msgstr "Rozmiar czcionki na przycisku"
+
+#: ../admin-interface.php:241
+msgid "Button Round Corners"
+msgstr "Rozmiar zaokrąglenia rogów"
+
+#: ../admin-interface.php:254
+msgid "Dashboard:"
+msgstr "Panel:"
+
+#: ../admin-interface.php:259
+msgid "Show box Recent Liked on Dashboard?"
+msgstr "Pokazać blok Ostatnio Polubione na stronie głównej panelu?"
+
+#: ../admin-interface.php:265
+msgid "Show box Top Liked on Dashboard?"
+msgstr "Poazać blok Najberdziej Lubiane na stronie głównej panelu?"
+
+#: ../admin-interface.php:271
+msgid "Post/Page Settings:"
+msgstr "Ustawienia wpisu/strony:"
+
+#: ../admin-interface.php:276
+msgid "Voters Text Header:"
+msgstr "Nagłówek bloku z listą użytkowników, którzy polubili treść:"
+
+#: ../admin-interface.php:281
+msgid "Show voters after post/page content?"
+msgstr "Czy wyświetlić litę użytkowników, którzy polubili treść? "
+
+#: ../admin.php:378 ../db.php:180
+msgid "Guest"
+msgstr "Gość"
+
+#: ../admin.php:478 ../admin.php:517
+msgid "I'm sorry, at this moment there are no data to display"
+msgstr "Przepraszamy, w tej chwili nie ma danych do wyświetlenia"
+
+#: ../admin.php:506
+msgid "likes"
+msgstr "polubień"
+
+#: ../admin.php:534
+msgid "KKILikeIt - recently liked"
+msgstr "KKILikeIt - ostatnio polubione"
+
+#: ../admin.php:537
+msgid "KKILikeIt - most liked - TOP 5"
+msgstr "KKILikeIt - najbardziej lubiane - TOP 5"
+
+#: ../menu.inc.php:10
+msgid "Stats"
+msgstr "Statystyki"
+
+#: ../menu.inc.php:18
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: ../menu.inc.php:25
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: ../prezentacja.php:43 ../prezentacja.php:162 ../prezentacja.php:263
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: ../prezentacja.php:48 ../prezentacja.php:167 ../prezentacja.php:269
+msgid "How many items should be displayed"
+msgstr "Ile elementów powinno być wyświetlanych"
+
+#: ../prezentacja.php:49 ../prezentacja.php:168 ../prezentacja.php:270
+msgid " items."
+msgstr "elementów."
+
+#: ../prezentacja.php:52 ../prezentacja.php:171
+msgid "What post type should be displayed"
+msgstr "Jaki typ wpisów powinien być wyświetlany"
+
+#: ../prezentacja.php:111 ../prezentacja.php:230 ../prezentacja.php:325
+msgid "Liked:"
+msgstr "Polubień:"
+
+#: ../prezentacja.php:112 ../prezentacja.php:231 ../prezentacja.php:326
+msgid "Date:"
+msgstr "Data:"
+
+#: ../prezentacja.php:335
+msgid "Do not have favorite items."
+msgstr "Nie posiada polubionych treści."
+
+#: ../settings.php:43
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: ../settings.php:56
+msgid "Button preview:"
+msgstr "Podgląd przycisku:"
+
+#: ../settings.php:120 ../settings.php:384
+msgid "-- wybierz --"
+msgstr "-- wybierz --"
+
+#: ../sidebar.php:9
+msgid "Plugin web site."
+msgstr "Strona pluginu."
+
+#~ msgid "List of projects"
+#~ msgstr "Lista projektów"
+
+#~ msgid "Add/Edit Project"
+#~ msgstr "Dodaj/Edytuj Projekt"
+
+#~ msgid "Data saved correctly."
+#~ msgstr "Dane zapisane prawidłowo."
+
+#~ msgid ""
+#~ "Error: An error occurred when saving data. Please try again or contact "
+#~ "the author of the plugin."
+#~ msgstr ""
+#~ "Błąd: Wystąpił błąd podczas zapisywania danych. Proszę spróbować ponownie "
+#~ "lub skontaktować się z autorem pluginu."
+
+#~ msgid "The project saved correctly."
+#~ msgstr "Projekt został zapisany prawidłowo."
+
+#~ msgid "Project name:"
+#~ msgstr "Nazwa projektu:"
+
+#~ msgid "Link to project site:"
+#~ msgstr "Link do strony projektu:"
+
+#~ msgid "Project description:"
+#~ msgstr "Opis projektu:"
+
+#~ msgid "Tasks:"
+#~ msgstr "Zadania:"
+
+#~ msgid "Add new task"
+#~ msgstr "Dodaj nowe zadanie"
+
+#~ msgid "Name"
+#~ msgstr "Nazwa"
+
+#~ msgid "Manual percentage"
+#~ msgstr "Poziom zaawansowania"
+
+#~ msgid "Progress"
+#~ msgstr "Postęp"
+
+#~ msgid "The target value"
+#~ msgstr "Wartość końcowa"
+
+#~ msgid "The current value"
+#~ msgstr "Wartość aktualna"
+
+#~ msgid "Save task"
+#~ msgstr "Zapisz zadanie"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Save project"
+#~ msgstr "Zapisz projekt"
+
+#~ msgid "In progress"
+#~ msgstr "Zapisuję"
+
+#~ msgid ""
+#~ "Your database is out of date. Please upgrade the database, to do this, "
+#~ "press the button below."
+#~ msgstr ""
+#~ "Twoja baza danych jest nieaktualna. Należy zaktualizować bazę danych "
+#~ "poprzez kliknięcie w poniższy przycisk."
+
+#~ msgid "Update"
+#~ msgstr "Aktualizuj"
+
+#~ msgid "Task"
+#~ msgstr "Zadanie"
+
+#~ msgid "saved correctly"
+#~ msgstr "zapisano poprawnie"
+
+#~ msgid "not saved. Please contact the plugin author"
+#~ msgstr "nie zapisano. Proszę skontaktować się z autorem pluginu."
+
+#~ msgid ""
+#~ "The project has not been saved. Please contact the author of the plugin."
+#~ msgstr ""
+#~ "Projekt nie został zapisany. Proszę spróbować ponownie lub skontaktować "
+#~ "się z autorem pluginu."
+
+#~ msgid "The project has been deleted."
+#~ msgstr "Projekt został usunięty."
+
+#~ msgid ""
+#~ "The project has not been removed. Please contact the author of the plugin."
+#~ msgstr ""
+#~ "Projekt nie mógł zostać usunięty.  Proszę spróbować ponownie lub "
+#~ "skontaktować się z autorem pluginu."
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Edit"
+#~ msgstr "Edytuj"
+
+#~ msgid "Delete"
+#~ msgstr "Usuń"
+
+#~ msgid ""
+#~ "Please confirm the removal of the project along with all progressbarami "
+#~ "assigned to him."
+#~ msgstr ""
+#~ "Potwierdź usunięcie projektu. Razem z projektem zostaną usunięte "
+#~ "wszystkie zadania do niego przypisane."
+
+#~ msgid "Legend"
+#~ msgstr "Legenda"
+
+#~ msgid "Active"
+#~ msgstr "Aktywny"
+
+#~ msgid "Works suspended"
+#~ msgstr "Prace wstrzymane"
+
+#~ msgid "Inactive (not displayed)"
+#~ msgstr "Nieaktywny (nie jest wyświetlany)"
+
+#~ msgid "Blue"
+#~ msgstr "Niebieski"
+
+#~ msgid "Red"
+#~ msgstr "Czerwony"
+
+#~ msgid "Yellow"
+#~ msgstr "Żółty"
+
+#~ msgid "Green"
+#~ msgstr "Zielony"
+
+#~ msgid "Gray"
+#~ msgstr "Szary"
+
+#~ msgid "Brown"
+#~ msgstr "Brązowy"
+
+#~ msgid "Orange"
+#~ msgstr "Pomarańczowy"
+
+#~ msgid "Pink"
+#~ msgstr "Różowy"
+
+#~ msgid "Violet"
+#~ msgstr "Fioletowy"
+
+#~ msgid "Black"
+#~ msgstr "Czarny"
+
+#~ msgid "Glass"
+#~ msgstr "Szkło"
+
+#~ msgid "Bars"
+#~ msgstr "Paski"
+
+#~ msgid "Color"
+#~ msgstr "Kolor"
+
+#~ msgid "Gragient"
+#~ msgstr "Gradient"
+
+#~ msgid "Use a solid color or gradient?"
+#~ msgstr "Użyć jednolitego koloru czy gradientu?"
+
+#~ msgid "Progressbar gradient"
+#~ msgstr "Gradient paska postępu"
+
+#~ msgid "Progressbar color"
+#~ msgstr "Kolor paska postępu"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Use textures?"
+#~ msgstr "Użyć textury?"
+
+#~ msgid "Texture will be applied on progressbar."
+#~ msgstr "Tekstura zostanie nałożona na pasek postępu."
+
+#~ msgid "Progressbar texture"
+#~ msgstr "Textura paska postępu"
+
+#~ msgid "Inactive progress bar settings:"
+#~ msgstr "Ustawienia nieaktywnego paska postępu:"
+
+#~ msgid "Inactive progressbar gradient"
+#~ msgstr "Gradient nieaktywnego paska postępu"
+
+#~ msgid "Inactive progressbar color"
+#~ msgstr "Kolor nieaktywnego paska postępu"
+
+#~ msgid "Background progress bar settings:"
+#~ msgstr "Ustawienia tła paska postępu:"
+
+#~ msgid "Progressbar background"
+#~ msgstr "Tło paska postępu"
+
+#~ msgid "Show information about the project?"
+#~ msgstr "Wyświetlić informację o projekcie?"
+
+#~ msgid ""
+#~ "Do you want to view information icon? After moving the cursor on the "
+#~ "icon, the user will see a cloud with information about the project."
+#~ msgstr ""
+#~ "Czy ma być wyświetlona ikonka informacyjna? Po najechaniu na ikonkę "
+#~ "kursorem, użytkownikowi wyświetli się dymek z opisem projektu."
+
+#~ msgid "Show project progressbar?"
+#~ msgstr "Wyświetlić ogólny pasek postępu dla projektu?"
+
+#~ msgid ""
+#~ "Do you want to display a progress bar that summarizes the general "
+#~ "progress of work on the project. It is calculated based on the average "
+#~ "values ​​of all tasks belonging to the project."
+#~ msgstr ""
+#~ "Czy ma być wyświetlony ogólny pasek postępu projektu? Jest on obliczany "
+#~ "na podstawie średniej wartości zaawansowania ze wszystkich zadań "
+#~ "przypisanych do danego projektu."
+
+#~ msgid "Display the percentage of completion?"
+#~ msgstr "Wyświetlić procent zaawansowania prac nad projektem?"
+
+#~ msgid "Do you want to display a numeric percentage progress on the project."
+#~ msgstr "Czy ma być wyświetlony procent zaawansowania prac nad projektem?"
+
+#~ msgid "Widget - the height of progress bar for the project."
+#~ msgstr "Widget - wysokość paska postępu dla projektu."
+
+#~ msgid "Widget - the height of progress bar for the task."
+#~ msgstr "Widget - wysokość paska postępu dla zadań."
+
+#~ msgid "Shortcode - the height of progress bar for the project."
+#~ msgstr "Shortcode - wysokość paska postępu dla projektu."
+
+#~ msgid "Shortcode - the height of progress bar for the task."
+#~ msgstr "Shortcode - wysokość paska postępu dla zadań."
+
+#~ msgid " - Work suspended."
+#~ msgstr " - prace wstrzymane."
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Progressbar preview"
+#~ msgstr "Podgląd paska postępu"
+
+#~ msgid "You are not allowed to be here"
+#~ msgstr "Nie jesteś upoważniony, aby znajdować się na tej stronie."
+
+#~ msgid "People who helped in plugin translation"
+#~ msgstr "Ludzie, którzy pomagają w tłumaczeniu pluginu"
+
+#~ msgid "Thank you"
+#~ msgstr "Dziękuję!"
+
+#~ msgid "Add task"
+#~ msgstr "Zapisz zadanie"
+
+#~ msgid "Report bug"
+#~ msgstr "Zgłoś błąd"
+
+#~ msgid "Translations"
+#~ msgstr "Tłumaczenia"
+
+#~ msgid "Donation"
+#~ msgstr "Dotacja"
+
+#~ msgid "Progress bar deleted successfully."
+#~ msgstr "Progressbar usunięty poprawnie."
+
+#~ msgid "Progress bar could not be deleted. Please try again."
+#~ msgstr "Progressbar nie został usunięty. Proszę ponowić próbę."
+
+#~ msgid "Changes saved successfully."
+#~ msgstr "Zmiany wprowadzone prawidlowo."
+
+#~ msgid "Version:"
+#~ msgstr "Wersja:"
+
+#~ msgid "CHOOSE"
+#~ msgstr "WYBIERZ"
+
+#~ msgid "Article"
+#~ msgstr "Artykuł"
+
+#~ msgid "Choose an article you work on"
+#~ msgstr "Wybierz artykuł, nad którym pracujesz"
+
+#~ msgid "Save"
+#~ msgstr "Zapisz"
+
+#~ msgid "Edit progressbar"
+#~ msgstr "Edytuj progressbar"
+
+#~ msgid "Add progressbar"
+#~ msgstr "Dodaj progressbar"
+
+#~ msgid "Colour of active progress bar"
+#~ msgstr "Kolor aktywnego progressbaru"
+
+#~ msgid "Colour of inactive progress bar"
+#~ msgstr "Kolor nieaktywnego progressbaru"
+
+#~ msgid "Should the percentage of progress be displayed?"
+#~ msgstr "Czy wyświetlić procent zaawansowania?"
+
+#~ msgid "Yes"
+#~ msgstr "Tak"
+
+#~ msgid "No"
+#~ msgstr "Nie"
+
+#~ msgid "Cloud settings"
+#~ msgstr "Ustawienia chmurki z opisem"
+
+#~ msgid "Show cloud"
+#~ msgstr "Pokarz chmurkę"
+
+#~ msgid "Cloud skin"
+#~ msgstr "Skórka chmurki"
+
+#~ msgid "White"
+#~ msgstr "Jasny"
+
+#~ msgid "Cloud width (min 150px)"
+#~ msgstr "Szerokość chmurki (min 150px)"
+
+#~ msgid "done"
+#~ msgstr "zakończono"

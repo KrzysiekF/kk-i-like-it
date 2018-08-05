@@ -1,0 +1,124 @@
+:root {
+    --kklike-admin-color-border: #f0f0f0;
+}
+
+.kk-i-like-it__list-box {
+    border: 1px solid var(--kklike-admin-color-border);
+}
+
+.kk-i-like-it__list-element {
+    border-bottom: 1px solid var(--kklike-admin-color-border);
+    padding: 5px 10px;
+}
+
+.kk-i-like-it__stat {
+    position: relative;
+    line-height: 100%;
+    padding: 13px 15px 12px;
+    height: 13px;
+    overflow: hidden;
+}
+
+.kk-i-like-it__stat .kk-i-like-it__list-text {
+    position: relative;
+    z-index: 5;
+}
+
+.kk-i-like-it__likes {
+    color: #DDDDDD;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    z-index: 10;
+}
+
+.kk-i-like-it__stat-bg {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 50%;
+    height: 34px;
+    background: #eee;
+}
+
+/* DASHBOARD */
+
+#kk-i-like-it__dashboard {
+    margin-left: -20px;
+}
+
+.kk-i-like-it__dashboard--container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto;
+    /* grid-column-gap: 15px; */
+    grid-row-gap: 15px;
+    grid-template-areas: 
+        "header header header"
+        "likes-count recent-likes top-liked"
+        "likes-chart likes-chart likes-chart"
+        "footer footer footer"
+    ;
+}
+
+.kk-i-like-it__dashboard--container > header {
+    grid-area: header;
+    background-color: #FAFBFE;
+    border-bottom: 1px solid #DAE1F4;
+    padding: 10px 20px;
+}
+
+.kk-i-like-it__dashboard--container > header h3 {
+    color: #3B53A2;
+    font-weight: 600;
+}
+
+.kk-i-like-it__dashboard--container > footer {
+    grid-area: footer;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.kk-i-like-it__dashboard--widget {
+    color: #3B53A2;
+    background-color: #FAFBFE;
+    border: 1px solid #DAE1F4;
+    box-shadow: 0 2px 3px -1px rgb(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0 15px;
+}
+
+.kk-i-like-it__dashboard--widget > header {
+    color: #0D6CD8;
+    font-weight: 600;
+}
+
+.kk-i-like-it__dashboard--widget-likes-count {
+    grid-area: likes-count;
+    text-align: center;
+}
+
+.kk-i-like-it__dashboard--widget-recent-likes {
+    grid-area: recent-likes;
+}
+
+.kk-i-like-it__dashboard--widget-top-liked {
+    grid-area: top-liked;
+}
+
+.kk-i-like-it__dashboard--widget-likes {
+    grid-area: likes-chart;
+}
+
+.kk-i-like-it__big-number {
+    font-size: 80px;
+    line-height: 1;
+}
+
+/* Stats */
+
+
+

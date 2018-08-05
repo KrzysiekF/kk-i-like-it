@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KKILikeIt 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-03 22:24+0100\n"
+"PO-Revision-Date: 2012-09-03 22:24+0100\n"
+"Last-Translator: Krzysztof Furtak <krzysztof.furtak@gmail.om>\n"
+"Language-Team: KKWebDesign <kontakt@kkwebdesign.pl>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-interface.php:23
+msgid ""
+"<strong>Plugin is not configured. It may not work correctly.</strong> Go to "
+"settings, make your selection and save settings."
+msgstr ""
+
+#: ../admin-interface.php:26
+msgid "The last ten activities"
+msgstr ""
+
+#: ../admin-interface.php:50
+msgid "I'm sorry, at this moment there is no data to display"
+msgstr ""
+
+#: ../admin-interface.php:60
+msgid "Likes per day"
+msgstr ""
+
+#: ../admin-interface.php:62
+msgid "The number of likes within last few days."
+msgstr ""
+
+#: ../admin-interface.php:67
+msgid "Top liked"
+msgstr ""
+
+#: ../admin-interface.php:69
+msgid "The most often liked aticles within last few days."
+msgstr ""
+
+#: ../admin-interface.php:99
+msgid "Top Left"
+msgstr ""
+
+#: ../admin-interface.php:100
+msgid "Top Right"
+msgstr ""
+
+#: ../admin-interface.php:101
+msgid "Bottom Left"
+msgstr ""
+
+#: ../admin-interface.php:102
+msgid "Bottom Right"
+msgstr ""
+
+#: ../admin-interface.php:103
+msgid "Own position"
+msgstr ""
+
+#: ../admin-interface.php:107
+msgid "Light"
+msgstr ""
+
+#: ../admin-interface.php:108
+msgid "Dark"
+msgstr ""
+
+#: ../admin-interface.php:109 ../admin-interface.php:129
+msgid "Big Dark"
+msgstr ""
+
+#: ../admin-interface.php:110 ../admin-interface.php:128
+msgid "Big Light"
+msgstr ""
+
+#: ../admin-interface.php:114
+msgid "Post"
+msgstr ""
+
+#: ../admin-interface.php:115
+msgid "Page"
+msgstr ""
+
+#: ../admin-interface.php:116
+msgid "Post&Page"
+msgstr ""
+
+#: ../admin-interface.php:120
+msgid "Always"
+msgstr ""
+
+#: ../admin-interface.php:121
+msgid "Never show"
+msgstr ""
+
+#: ../admin-interface.php:122
+msgid "Hovering cursore over the button"
+msgstr ""
+
+#: ../admin-interface.php:126
+msgid "Small Dark"
+msgstr ""
+
+#: ../admin-interface.php:127
+msgid "Small Light"
+msgstr ""
+
+#: ../admin-interface.php:134
+msgid "General Settings"
+msgstr ""
+
+#: ../admin-interface.php:139
+msgid "Button settings:"
+msgstr ""
+
+#: ../admin-interface.php:144
+msgid "Like text:"
+msgstr ""
+
+#: ../admin-interface.php:150
+msgid "Unlike text:"
+msgstr ""
+
+#: ../admin-interface.php:156
+msgid "Only users can vote?"
+msgstr ""
+
+#: ../admin-interface.php:162
+msgid "Should a button be shown to guests?"
+msgstr ""
+
+#: ../admin-interface.php:168
+msgid "Button position:"
+msgstr ""
+
+#: ../admin-interface.php:175
+msgid "Show button on post list?"
+msgstr ""
+
+#: ../admin-interface.php:181
+msgid "Where display button?"
+msgstr ""
+
+#: ../admin-interface.php:188
+msgid "Show numer of likes"
+msgstr ""
+
+#: ../admin-interface.php:196
+msgid "Own button style?"
+msgstr ""
+
+#: ../admin-interface.php:203 ../admin-interface.php:247
+msgid "Button type"
+msgstr ""
+
+#: ../admin-interface.php:211
+msgid "Button Color"
+msgstr ""
+
+#: ../admin-interface.php:217
+msgid "Button Text Color"
+msgstr ""
+
+#: ../admin-interface.php:223
+msgid "Button Border Size"
+msgstr ""
+
+#: ../admin-interface.php:229
+msgid "Button Border Color"
+msgstr ""
+
+#: ../admin-interface.php:235
+msgid "Button Font Size"
+msgstr ""
+
+#: ../admin-interface.php:241
+msgid "Button Round Corners"
+msgstr ""
+
+#: ../admin-interface.php:254
+msgid "Dashboard:"
+msgstr ""
+
+#: ../admin-interface.php:259
+msgid "Show box Recent Liked on Dashboard?"
+msgstr ""
+
+#: ../admin-interface.php:265
+msgid "Show box Top Liked on Dashboard?"
+msgstr ""
+
+#: ../admin-interface.php:271
+msgid "Post/Page Settings:"
+msgstr ""
+
+#: ../admin-interface.php:276
+msgid "Voters Text Header:"
+msgstr ""
+
+#: ../admin-interface.php:281
+msgid "Show voters after post/page content?"
+msgstr ""
+
+#: ../admin.php:378 ../db.php:180
+msgid "Guest"
+msgstr ""
+
+#: ../admin.php:478 ../admin.php:517
+msgid "I'm sorry, at this moment there are no data to display"
+msgstr ""
+
+#: ../admin.php:506
+msgid "likes"
+msgstr ""
+
+#: ../admin.php:534
+msgid "KKILikeIt - recently liked"
+msgstr ""
+
+#: ../admin.php:537
+msgid "KKILikeIt - most liked - TOP 5"
+msgstr ""
+
+#: ../menu.inc.php:10
+msgid "Stats"
+msgstr ""
+
+#: ../menu.inc.php:18
+msgid "Settings"
+msgstr ""
+
+#: ../menu.inc.php:25
+msgid "Documentation"
+msgstr ""
+
+#: ../prezentacja.php:43 ../prezentacja.php:162 ../prezentacja.php:263
+msgid "Title:"
+msgstr ""
+
+#: ../prezentacja.php:48 ../prezentacja.php:167 ../prezentacja.php:269
+msgid "How many items should be displayed"
+msgstr ""
+
+#: ../prezentacja.php:49 ../prezentacja.php:168 ../prezentacja.php:270
+msgid " items."
+msgstr ""
+
+#: ../prezentacja.php:52 ../prezentacja.php:171
+msgid "What post type should be displayed"
+msgstr ""
+
+#: ../prezentacja.php:111 ../prezentacja.php:230 ../prezentacja.php:325
+msgid "Liked:"
+msgstr ""
+
+#: ../prezentacja.php:112 ../prezentacja.php:231 ../prezentacja.php:326
+msgid "Date:"
+msgstr ""
+
+#: ../prezentacja.php:335
+msgid "Do not have favorite items."
+msgstr ""
+
+#: ../settings.php:43
+msgid "Save changes"
+msgstr ""
+
+#: ../settings.php:56
+msgid "Button preview:"
+msgstr ""
+
+#: ../settings.php:120 ../settings.php:384
+msgid "-- wybierz --"
+msgstr ""
+
+#: ../sidebar.php:9
+msgid "Plugin web site."
+msgstr ""

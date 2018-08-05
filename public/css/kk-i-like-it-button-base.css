@@ -1,0 +1,114 @@
+/**
+ *
+ * Variables
+ * 
+ */
+
+:root {
+    --kklike-button-bg-color: #f0f0f0;
+    --kklike-button-bg-color-hover: #f9f9f9;
+    --kklike-button-separator-color: #ffffff;
+    --kklike-button-icon-box-width: 35px;
+    --kklike-button-likes-box-width: 50px;
+    --kklike-button-button-height: 30px;
+}
+
+/**
+ *
+ * Button default styles
+ * 
+ */
+
+.kk-i-like-it__box {
+    /* display: grid;
+    grid-template-areas: auto; */
+    display: flex;
+    flex-flow: row wrap;
+
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.kk-i-like-it__right {
+    /* justify-items: end; */
+    justify-content: flex-end;
+}
+
+.kk-i-like-it__box button {
+    display: grid;
+    grid-template-columns: var(--kklike-button-icon-box-width) var(--kklike-button-likes-box-width) auto;
+    grid-template-rows: var(--kklike-button-button-height);
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas: "icon value button-text";
+
+    border: 1px solid var(--kklike-button-bg-color);
+    background-color: var(--kklike-button-bg-color);
+    border-radius: 4px;
+    color: inherit;
+    font-weight: 400;
+    padding: 0;
+    line-height: 1;
+    font-size: 14px;
+}
+
+.kk-i-like-it__box button > span {
+    display: grid;
+    grid-template-areas: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.kk-i-like-it__ico {
+    grid-area: icon;
+}
+
+.kk-i-like-it__value {
+    grid-area: value;
+    overflow: hidden;
+}
+
+.kk-i-like-it__text {
+    grid-area: button-text;
+}
+
+.kk-i-like-it__ico,
+.kk-i-like-it__value {
+    border-right: 1px solid var(--kklike-button-separator-color);
+}
+
+.kk-i-like-it__text {
+    padding: 0 10px;
+}
+
+/**
+ *
+ * Hidden rating value
+ * 
+ */
+
+.kk-i-like-it__box button.kk-i-like-it__rating-hidden {
+    grid-template-areas: "icon button-text";
+    grid-template-columns: var(--kklike-button-icon-box-width) auto;
+}
+
+.kk-i-like-it__box button:hover {
+    background-color: var(--kklike-button-bg-color-hover);
+}
+
+/**
+ *
+ * Show number of likes on hover
+ * 
+ */
+
+.kk-i-like-it__box button.kk-i-like-it__rating-hover {
+    grid-template-columns: var(--kklike-button-icon-box-width) 0px auto;
+    /* transition: all 200ms; */
+}
+
+.kk-i-like-it__box button.kk-i-like-it__rating-hover:hover {
+    grid-template-columns: var(--kklike-button-icon-box-width) var(--kklike-button-likes-box-width) auto;
+}
+
+
