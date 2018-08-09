@@ -110,9 +110,10 @@ class Kk_I_Like_It_Admin {
 	}
 
 	public function admin_page() {
-		add_dashboard_page(
-			'KK I Like It - Stats',
-			'KK I Like It - Stats',
+		add_submenu_page(
+			'kk-i-like-it-2',
+			'Statistics',
+			'Statistics',
 			'manage_options',
 			'kk-i-like-it-stats',
 			array( $this, 'create_admin_page' )

@@ -174,10 +174,9 @@ class Kk_I_Like_It {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
-		$this->loader->add_action( 'admin_menu', $plugin_admin, 'admin_page' );
 		$this->loader->add_action( 'wp_head', $plugin_admin, 'head_variables' );
 		$this->loader->add_action( 'wp_dashboard_setup', $plugin_admin, 'setup_wp_dashboard_widgets' );
-
+		$this->loader->add_action( 'admin_menu', $plugin_admin, 'admin_page', 20 );
 	}
 
 	/**

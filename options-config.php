@@ -66,7 +66,7 @@
         // TYPICAL -> Change these values as you need/desire
         'opt_name'             => $opt_name,
         // This is where your data is stored in the database and also becomes your global variable name.
-        'display_name'         => 'KK I Like It! - ' . __('Settings', 'kk-i-like-it'),
+        'display_name'         => 'KK I Like It 2',
         // Name that appears at the top of your panel
         'display_version'      => '',
         // Version that appears at the top of your panel
@@ -74,8 +74,8 @@
         //Specify if the admin menu should appear or not. Options: menu or submenu (Under appearance only)
         'allow_sub_menu'       => true,
         // Show the sections below the admin menu item or not
-        'menu_title'           => __( 'KK I Like It Settings', 'kk-i-like-it' ),
-        'page_title'           => __( 'KK I Like It Settings', 'kk-i-like-it' ),
+        'menu_title'           => 'KK I Like It 2',
+        'page_title'           => 'KK I Like It 2',
         // You will need to generate a Google API key to use this feature.
         // Please visit: https://developers.google.com/fonts/docs/developer_api#Auth
         'google_api_key'       => '',
@@ -115,7 +115,7 @@
         // Force your panel to always open to a specific tab (by id)
         'page_icon'            => 'icon-themes',
         // Icon displayed in the admin panel next to your menu_title
-        'page_slug'            => '',
+        'page_slug'            => 'kk-i-like-it-2',
         // Page slug used to denote the panel, will be based off page title then menu title then opt_name if not provided
         'save_defaults'        => true,
         // On load save the defaults to DB before user clicks save or not

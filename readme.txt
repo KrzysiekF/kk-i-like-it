@@ -1,14 +1,13 @@
 === KK I Like It ===
-Contributors: Krzy-siek
-Author URI: http://krzysztof-furtak.pl/
-Plugin URL: http://krzysztof-furtak.pl/
-Donate link: http://krzysztof-furtak.pl/
+Contributors: KWThemes
+Author URI: https://kw-themes.com/
+Plugin URL: https://kw-themes.com/
 License: GNU GPL
-Version: 2.0.0
+Version: 0.1.0
 Tags: like, like it, social, rating, blog, post, page, premium, free
 Requires at least: 3.0
 Tested Up To: 4.9.8
-Stable tag: 2.0.0
+Stable tag: 0.1.0
 
 Plugin gives users or guest an option to like an article or a page.
 
@@ -67,65 +66,5 @@ COMING SOON
 
 
 == Changelog ==
-= 2.0.0 - BETA =
+= 0.1.0 - BETA =
 * Plugin core rewriting
-
-= 1.7.5.3 =
-* Preparing for the plugin core rewriting
-* Some test in new Wordpress version
-* FIX: Couple of CSS bugs
-
-= 1.7.5.2 =
-* FIX: Improved display button in the news archive
-* FIX: Function kkLikeRating() - The plugin does not display the number 0. where can I set it to display the number zero
-
-= 1.7.5.1 =
-* FIX: Some warnings in settings
-
-= 1.7.5 =
-* NEW: Information about PRO version of plugin
-* CHANGE: Change of how to add libraries
-* FIX: A few glitches have been fixed
-
-= 1.7.4 =
-* CHANGE: Some admin design changes
-
-= 1.7.3 =
-* NEW: [Widget User Liked] Added possibility to set the number of displayed items
-* CHANGE: Changed sorting charts on statistics
-* CHANGE: Some changes in the interface plugin panel
-
-= 1.7.2 =
-* HOTFIX: Fatal error after activation plugin
-
-= 1.7.1 =
-* FIX: Fatal error after activation plugin
-* FIX: Compatibility with other plugins
-* FIX: Bugfixes for WP 3.5.x
-
-= 1.7 = 
-* NEW: [Settings] Gavatar - avatar's size adjustment option.
-* NEW: [Settings] Gavatar - nick switch off ooption.
-* CHANGE: Likes saving has been changed.
-* CHANGE: Charts display corrected.
-* FIX: Button display for certain layouts has been corrected.
-
-= 1.6.2 =
-* CHANGE: Charts library
-* FIX: Translation loaded
-
-= 1.6.1 Hotfix =
-* FIX: Show voters after post content
-
-= 1.6 =
-* NEW: Two widgets in administration panel with statistics
-* NEW: Lang file (lang-kklike-xx_XX.po) for people who want to help with translation
-* CHANGE: Updated Polish translation
-
-= 1.5 =
-* NEW: Button display generator
-* NEW: Add gravatar of persons who liked the post
-
-= 1.4.1 =
-* CHANGE: Some admin design changes
-* FIX: Custom posts list - incorrect button displ
