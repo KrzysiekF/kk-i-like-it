@@ -128,8 +128,8 @@ class Kk_I_Like_It {
 	}
 
 	private function load_framework() {
-		if ( !class_exists( 'ReduxFramework' ) && file_exists( plugin_dir_path( dirname( __FILE__ ) ) . '/redux-framework/ReduxCore/framework.php' ) ) {
-			require_once  plugin_dir_path( dirname( __FILE__ ) ) . '/redux-framework/ReduxCore/framework.php';
+		if ( !class_exists( 'ReduxFramework' ) && file_exists( plugin_dir_path( dirname( __FILE__ ) ) . '/framework/ReduxCore/framework.php' ) ) {
+			require_once  plugin_dir_path( dirname( __FILE__ ) ) . '/framework/ReduxCore/framework.php';
 		}
 
 		if ( !isset( $redux_demo ) && file_exists( plugin_dir_path( dirname( __FILE__ ) ) . '/options-config.php' ) ) {
