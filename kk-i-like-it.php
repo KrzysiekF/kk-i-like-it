@@ -8,17 +8,14 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://krzysztof-furtak.pl
  * @since             1.0.0
  * @package           Kk_I_Like_It
  *
  * @wordpress-plugin
  * Plugin Name:       KK I Like It 2
- * Plugin URI:        http://krzysztof-furtak.pl
  * Description:       Plugin gives users or guest an option to like an article or a page.
- * Version:           2.0.0
+ * Version:           0.1.0
  * Author:            Krzysztof Furtak
- * Author URI:        http://krzysztof-furtak.pl
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       kkilikeit2
