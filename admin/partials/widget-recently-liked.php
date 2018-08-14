@@ -1,5 +1,5 @@
 <?php
-    require_once PLUGIN_PATH . 'includes/class-kk-i-like-it-db.php';
+    require_once KKILIKEIT2_PATH . 'includes/class-kk-i-like-it-db.php';
 ?>
 
 <div class="kk-i-like-it__list-box">

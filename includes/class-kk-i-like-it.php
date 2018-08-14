@@ -67,8 +67,8 @@ class Kk_I_Like_It {
 	 * @since    2.0.0
 	 */
 	public function __construct() {
-		if ( defined( 'PLUGIN_NAME_VERSION' ) ) {
-			$this->version = PLUGIN_NAME_VERSION;
+		if ( defined( 'KKILIKEIT2_VERSION' ) ) {
+			$this->version = KKILIKEIT2_VERSION;
 		} else {
 			$this->version = '1.0.0';
 		}
