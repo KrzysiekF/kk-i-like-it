@@ -1,11 +1,12 @@
-=== KK I Like It ===
+=== KK I Like It 2 ===
 Contributors: KWThemes
-License: GNU GPL
-Version: 0.1.0
 Tags: like, like it, social, rating, blog, post, page, premium, free
-Requires at least: 3.0
 Tested Up To: 4.9.8
 Stable tag: 0.1.0
+Requires at least: 3.0
+Requires PHP: 5.2.4
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Plugin gives users or guest an option to like an article or a page.
 
