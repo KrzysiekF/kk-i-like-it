@@ -330,28 +330,29 @@
                 'required' => array( 'kklike-own-button-style', '=', '0' ),
                 'title'    => __( 'Button design', 'kk-i-like-it' ),
                 'options'  => array(
-                    'light-small' => array(
-                        'title' => 'Light small',
-                        'alt' => 'Light small',
+                    'light' => array(
+                        'title' => 'Light',
+                        'alt' => 'Light',
                         'img' => plugin_dir_url( __FILE__ ) . 'admin/img/light-small.png',
                     ),
-                    'dark-small' => array(
-                        'title' => 'Dark small',
-                        'alt' => 'Dark small',
+                    'dark' => array(
+                        'title' => 'Dark',
+                        'alt' => 'Dark',
                         'img' => plugin_dir_url( __FILE__ ) . 'admin/img/dark-small.png'
                     ),
-                    'light-big' => array(
-                        'title' => 'Light big',
-                        'alt' => 'Light big',
-                        'img' => plugin_dir_url( __FILE__ ) . 'admin/img/light-big.png'
-                    ),
-                    'dark-big' => array(
-                        'title' => 'Dark Big',
-                        'alt' => 'Dark Big',
-                        'img' => plugin_dir_url( __FILE__ ) . 'admin/img/dark-big.png'
-                    ),
                 ),
-                'default'  => 'light-small'
+                'default'  => 'light'
+            ),
+            array(
+                'id'       => 'kklike-button-size',
+                'type'     => 'button_set',
+                'title'    => __( 'Button size', 'kk-i-like-it' ),
+                'options'  => array(
+                    'kk-i-like-it__size-small' => __('Small', 'kk-i-like-it'),
+                    'kk-i-like-it__size-default' => __('Default', 'kk-i-like-it'),
+                    'kk-i-like-it__size-big' => __('Big', 'kk-i-like-it')
+                ),
+                'default'  => 'kklike-size-default'
             ),
             array(
                 'id'       => 'kklike-own-button-bg-color',

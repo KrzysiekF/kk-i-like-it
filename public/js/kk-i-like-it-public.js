@@ -10,7 +10,7 @@
 		const idUser = button.data('user');
 		const onlyUser = button.data('ou');
 
-		const allButtons = jQuery('button[rel="kk-i-like-it--post-' + idPost + '"]');
+		const allButtons = jQuery('[rel="kk-i-like-it--post-' + idPost + '"]');
 
 		if(onlyUser == '1' && idUser == '0'){
 			allButtons.after(jQuery('<div />').css({'clear':'both'}).addClass('kk-i-like-it__msg').text('Only registered users can vote.'));
@@ -63,7 +63,7 @@
 
 	const bindEventHandlers = function () {
 
-		jQuery('body').on('click', '.kk-i-like-it__box button', function () {
+		jQuery('body').on('click', '.kk-i-like-it__box > a', function () {
 			buttonOnClick(this);
 		});
 

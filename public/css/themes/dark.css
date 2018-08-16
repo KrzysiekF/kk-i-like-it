@@ -4,16 +4,10 @@
  * 
  */
 
- :root {
-    --kklike-button-bg-color: #595959;
-    --kklike-button-likes-box-width: 38px;
-    --kklike-button-button-height: 25px;
-}
-
-.kk-i-like-it__box button,
-.kk-i-like-it__box button:active,
-.kk-i-like-it__box button:focus,
-.kk-i-like-it__box button:hover {
+.kk-i-like-it__box > a,
+.kk-i-like-it__box > a:active,
+.kk-i-like-it__box > a:focus,
+.kk-i-like-it__box > a:hover {
     font-size: 13px;
 
     background: -moz-linear-gradient(top,  #595959 0%, #383838 100%);
@@ -24,8 +18,24 @@
     background: linear-gradient(top,  #595959 0%,#383838 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#383838',GradientType=0 );
     
-    text-shadow: 1px 1px var(--kklike-button-bg-color);
-    border: 1px solid var(--kklike-button-bg-color) !important;
-    box-shadow: 0 0 2px var(--kklike-button-bg-color);
+    text-shadow: 1px 1px #595959;
+    box-shadow: 0 0 2px #595959 !important;
     color: #CCCCCC !important;
+}
+
+.kk-i-like-it__ico,
+.kk-i-like-it__value {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.kk-i-like-it__box.kk-i-like-it__size-small > a {
+    font-size: 11px;
+    grid-template-columns: 35px 40px auto;
+    grid-template-rows: 22px;
+}
+
+.kk-i-like-it__box.kk-i-like-it__size-big > a {
+    font-size: 16px;
+    grid-template-columns: 38px 50px auto;
+    grid-template-rows: 35px;
 }

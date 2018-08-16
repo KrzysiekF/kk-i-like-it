@@ -223,8 +223,8 @@ class Kk_I_Like_It_Public {
 		}
 
 		$kklike = '
-		<div class="kk-i-like-it__box '. $positionClass .'">
-			<button
+		<div class="kk-i-like-it__box '. $positionClass .' '. $kk_like_options['kklike-button-size'] .'">
+			<a
 				class="'. $boxRating .'"
 				data-post-id="'. $post->ID .'"
 				data-post-type="post"
@@ -244,7 +244,7 @@ class Kk_I_Like_It_Public {
 				<span class="kk-i-like-it__text">
 					<span>'. $text .'</span>
 				</span>
-			</button>
+			</a>
 		</div>
 		';
 
