@@ -28,6 +28,10 @@
     border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.kk-i-like-it__loader {
+    color: #CCCCCC;
+}
+
 .kk-i-like-it__box.kk-i-like-it__size-small > a {
     font-size: 11px;
     grid-template-columns: 35px 40px auto;

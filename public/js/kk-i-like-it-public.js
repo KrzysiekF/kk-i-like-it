@@ -26,7 +26,7 @@
 			ajaxAction = 'remove_like';
 		}
 
-		allButtons.find('.kk-i-like-it__text').addClass('kk-i-like-it__load');
+		allButtons.addClass('kk-i-like-it__load');
 
 		jQuery.post(kkajax.ajaxurl, {
 			action: ajaxAction,
@@ -46,17 +46,16 @@
 					allButtons.find('.kk-i-like-it__text').text(likeText);
 					allButtons.data({ action: 'like' });
 				}
+			} else {
+				if (responseData.msg != '') {
+					allButtons.after(jQuery('<div />').css({ 'clear': 'both' }).addClass('kk-i-like-it__msg').text(responseData.msg));
+					setTimeout(function () {
+						jQuery('.kk-i-like-it__msg').fadeOut('normal');
+					}, 3000);
+				}
 			}
 
-			if (responseData.msg != '') {
-				allButtons.after(jQuery('<div />').css({ 'clear': 'both' }).addClass('kk-i-like-it__msg').text(responseData.msg));
-				setTimeout(function () {
-					jQuery('.kk-i-like-it__msg').fadeOut('normal');
-				}, 3000);
-			}
-
-			allButtons.find('.kk-i-like-it__text').removeClass('kk-i-like-it__load');
-
+			allButtons.removeClass('kk-i-like-it__load');
 		});
 
 	};

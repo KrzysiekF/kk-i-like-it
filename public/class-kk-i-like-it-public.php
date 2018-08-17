@@ -244,6 +244,7 @@ class Kk_I_Like_It_Public {
 				<span class="kk-i-like-it__text">
 					<span>'. $text .'</span>
 				</span>
+				<span class="kk-i-like-it__loader">&nbsp;</span>
 			</a>
 		</div>
 		';

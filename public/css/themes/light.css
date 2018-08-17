@@ -23,6 +23,10 @@
     box-shadow: 0 0 2px rgba(204, 204, 204, 0.7) !important;
 }
 
+.kk-i-like-it__loader {
+    color: #666666;
+}
+
 .kk-i-like-it__box.kk-i-like-it__size-small > a {
     font-size: 11px;
     grid-template-columns: 35px 40px auto;
