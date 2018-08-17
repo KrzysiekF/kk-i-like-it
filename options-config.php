@@ -330,6 +330,11 @@
                 'required' => array( 'kklike-own-button-style', '=', '0' ),
                 'title'    => __( 'Button design', 'kk-i-like-it' ),
                 'options'  => array(
+                    'violet' => array(
+                        'title' => 'Violet',
+                        'alt' => 'violet',
+                        'img' => plugin_dir_url( __FILE__ ) . 'admin/img/violet.png',
+                    ),
                     'light' => array(
                         'title' => 'Light',
                         'alt' => 'Light',
@@ -341,7 +346,7 @@
                         'img' => plugin_dir_url( __FILE__ ) . 'admin/img/dark-small.png'
                     ),
                 ),
-                'default'  => 'light'
+                'default'  => 'violet'
             ),
             array(
                 'id'       => 'kklike-button-size',

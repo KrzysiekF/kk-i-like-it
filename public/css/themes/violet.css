@@ -1,0 +1,118 @@
+.kk-i-like-it__box > a {
+    grid-template-areas: "icon button-text value";
+    grid-template-columns: 35px auto 50px;
+    background-color: transparent;
+}
+
+.kk-i-like-it__text {
+    padding: 0 3px;
+}
+
+.kk-i-like-it__value {
+    position: relative;
+    background-color: #eeeeee;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    overflow: visible;
+    margin-left: 7px;
+}
+
+.kk-i-like-it__value::before {
+    content: "";
+    background-color: #eee;
+    border: 1px solid #d3d3d3;
+    border-right: 0;
+    border-top: 0;
+    position: absolute;
+    left: -4px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    height: 9px;
+    width: 9px;
+    z-index: 1;
+    zoom: 1;
+}
+
+.kk-i-like-it__loader {
+    color: #666666;
+    margin: 0 auto 0 15px;
+}
+
+.kk-i-like-it__box > a svg {
+    fill: transparent;
+    stroke: url(#VioletGradient);
+    stroke-width: 3px;
+
+    width: 24px;
+    height: 24px;
+    padding: 0 2px;
+}
+
+.kk-i-like-it__box > a.unlike svg {
+    animation-name: checkBounce, checkFill;
+    animation-duration: 250ms, 800ms;
+    animation-fill-mode: forwards;
+    animation-delay: 124ms;
+}
+
+.kk-i-like-it__box > a,
+.kk-i-like-it__box > a:active,
+.kk-i-like-it__box > a:focus,
+.kk-i-like-it__box > a:hover {
+    box-shadow: none !important;
+    background-color: transparent;
+}
+
+@keyframes checkBounce {
+    from {
+        width: 24px;
+        height: 24px;
+    }
+
+    80% {
+        width: 20px;
+        height: 20px;
+    }
+
+    90% {
+        width: 30px;
+        height: 30px;
+    }
+
+    to {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@keyframes checkFill {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: url(#VioletGradient);
+    }
+}
+
+.kk-i-like-it__box.kk-i-like-it__size-small > a {
+    font-size: 11px;
+    grid-template-columns: 35px auto 40px;
+    grid-template-rows: 22px;
+}
+
+.kk-i-like-it__box.kk-i-like-it__size-small > a svg {
+    width: 18px;
+    height: 18px;
+}
+
+.kk-i-like-it__box.kk-i-like-it__size-big > a {
+    font-size: 16px;
+    grid-template-columns: 38px auto 50px ;
+    grid-template-rows: 35px;
+}
+
+.kk-i-like-it__box.kk-i-like-it__size-big > a svg {
+    width: 26px;
+    height: 26px;
+}

@@ -41,10 +41,12 @@
 
 				if (action === 'like') {
 					allButtons.find('.kk-i-like-it__text').text(unlikeText);
-					allButtons.data({ action: 'unlike' });
+					allButtons.data('action', 'unlike');
+					allButtons.removeClass('like').addClass('unlike');
 				} else {
 					allButtons.find('.kk-i-like-it__text').text(likeText);
-					allButtons.data({ action: 'like' });
+					allButtons.data('action', 'like');
+					allButtons.removeClass('unlike').addClass('like');
 				}
 			} else {
 				if (responseData.msg != '') {
