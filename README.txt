@@ -1,8 +1,8 @@
 === KK I Like It 2 ===
 Contributors: KWThemes
 Tags: like, like it, social, rating, blog, post, page, premium, free
-Tested Up To: 4
-Stable tag: 0.1.0
+Tested Up To: 4.9
+Stable tag: 0.1.1
 Requires at least: 3.0
 Requires PHP: 5.2.4
 License: GPLv2 or later

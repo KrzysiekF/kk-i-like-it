@@ -14,7 +14,7 @@
  * @wordpress-plugin
  * Plugin Name:       KK I Like It 2
  * Description:       Plugin gives users or guest an option to like an article or a page.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            KWThemes
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
